@@ -5,4 +5,6 @@ webcrawler.py: Download the messages from Yahoo Finace Conversation board of sto
 
 message.py: Contains the basic stucture of the sentiment analysis algorithms. No need to change any line.
 
-sentimentAnalysis.py: 
+sentimentAnalysis.py: This file contains following functions: 1. read the xml of the Stanford CoreNLP output; 2. 4 sentiment analysis algorithms, i.e. LDA based, JST based, Aspected based ( an algorithm proposed by the paper Sentiment Analysis on Social Media for Stock Movement Prediction) and NLP based; 3. compute the sentiment score for forcasting stock movements; 4. write and read function of LDA and JST theta matrix, which is used for interprocesser communication.
+
+Other files: scripts for Stanford CoreNLP.
